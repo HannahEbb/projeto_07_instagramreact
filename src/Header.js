@@ -12,7 +12,7 @@ export default function Header() {
                 <div class="logo">
                     <ion-icon name="logo-instagram"></ion-icon>
                     <div class="separador"></div>
-                    <img src="/build/assets/img/logo.png" alt="" />
+                    <img src="../public/assets/img/logo.png" alt="" />
                 </div>
 
                 <div class="pesquisa">

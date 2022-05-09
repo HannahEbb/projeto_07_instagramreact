@@ -17,9 +17,9 @@ function Sugestao(props) {
 
 
 export default function Sidebar() {
-     const ownerInfo = [{accountPhoto: "/build/assets/img/catanacomics.svg", accountName: "catanacomics", accountOwner: "Catana"}];
+     const ownerInfo = [{accountPhoto: "./assets/img/catanacomics.svg", accountName: "catanacomics", accountOwner: "Catana"}];
 
-    const infos = [{userPhoto: "/build/assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "/build/assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "/build/assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "/build/assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "/build/assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}];
+    const infos = [{userPhoto: "./assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "./assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "./assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "./assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "./assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}];
 
      return (
          <div class="sidebar">

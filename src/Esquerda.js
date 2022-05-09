@@ -15,7 +15,7 @@ function Story(props) {
 
 
  function Stories() {
-    const infos = [{image: "../public/assets/img/filomoderna.svg", text: "9gag"}, {image: "/build/assets/img/filomoderna.svg", text: "9gag"}, {image: "/build/assets/img/filomoderna.svg", text: "9gag"}, {image: "/build/assets/img/filomoderna.svg", text: "9gag"}, {image: "/build/assets/img/filomoderna.svg", text: "9gag"}, {image: "/build/assets/img/filomoderna.svg", text: "9gag"}, {image: "/build/assets/img/filomoderna.svg", text: "9gag"}, {image: "/build/assets/img/filomoderna.svg", text: "9gag"}];
+    const infos = [{image: "./assets/img/filomoderna.svg", text: "9gag"}, {image: "./assets/img/filomoderna.svg", text: "9gag"}, {image: "./assets/img/filomoderna.svg", text: "9gag"}, {image: "./assets/img/filomoderna.svg", text: "9gag"}, {image: "./assets/img/filomoderna.svg", text: "9gag"}, {image: "./assets/img/filomoderna.svg", text: "9gag"}, {image: "./assets/img/filomoderna.svg", text: "9gag"}, {image: "./assets/img/filomoderna.svg", text: "9gag"}];
 
      return (
          <div class="stories">
@@ -70,7 +70,7 @@ function Post(props) {
 
 
  function Posts() {
-    const infos = [{userPhoto: "../public/assets/img/gato-telefone.svg", userName: "meowed", contentImage: "/build/assets/img/gato-telefone.svg", likedByPhoto: "/build/assets/img/respondeai.svg", likedByName: "repondeai"}, {userPhoto: "/build/assets/img/gato-telefone.svg", userName: "meowed", contentImage: "/build/assets/img/gato-telefone.svg", likedByPhoto: "/build/assets/img/gato-telefone.svg", likedByName: "repondeai"}, {userPhoto: "/build/assets/img/gato-telefone.svg", userName: "meowed", contentImage: "/build/assets/img/gato-telefone.svg", likedByPhoto: "/build/assets/img/gato-telefone.svg", likedByName: "repondeai"}];
+    const infos = [{userPhoto: "./assets/img/meowed.svg", userName: "meowed", contentImage: "./assets/img/gato-telefone.svg", likedByPhoto: "./assets/img/respondeai.svg", likedByName: "repondeai"}, {userPhoto: "./assets/img/meowed.svg", userName: "meowed", contentImage: "./assets/img/gato-telefone.svg", likedByPhoto: "./assets/img/respondeai.svg", likedByName: "repondeai"}, {userPhoto: "./assets/img/meowed.svg", userName: "meowed", contentImage: "./assets/img/gato-telefone.svg", likedByPhoto: "./assets/img/respondeai.svg", likedByName: "repondeai"}];
 
      return (
          <div class="posts">

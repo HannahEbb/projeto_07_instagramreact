@@ -15,21 +15,27 @@ function Sugestao(props) {
     );
 }
 
+function Usuario(props) {
+    return (
+      <div class="usuario">
+      <img src={props.accountPhoto} />
+      <div class="texto">
+          <strong>{props.accountName}</strong>
+          {props.accountOwner}
+      </div>
+   </div>
+    );
+}
+
 
 export default function Sidebar() {
-     const ownerInfo = [{accountPhoto: "./assets/img/catanacomics.svg", accountName: "catanacomics", accountOwner: "Catana"}];
+    const ownerinfo = [{accountPhoto: "./assets/img/catanacomics.svg", accountName: "catanacomics", accountOwner: "Catana"}];
 
     const infos = [{userPhoto: "./assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "./assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "./assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "./assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}, {userPhoto: "./assets/img/bad.vibes.memes.svg", userName: "bad.vibes.memes"}];
 
      return (
          <div class="sidebar">
-             <div class="usuario">
-                <img src={ownerInfo.accountPhoto} />
-                <div class="texto">
-                    <strong>{ownerInfo.accountName}</strong>
-                    {ownerInfo.accountOwner}
-                </div>
-             </div>
+            {ownerinfo.map(info => <Usuario accountPhoto={info.accountPhoto} accountName={info.accountName} accountOwner={info.accountOwner}/>)}
 
           <div class="sugestoes">
             <div class="titulo">

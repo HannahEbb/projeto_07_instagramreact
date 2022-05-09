@@ -1,5 +1,3 @@
-
-
 export default function Header() {
     const icones = [
         <ion-icon name="paper-plane-outline"></ion-icon>,
